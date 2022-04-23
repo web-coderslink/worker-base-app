@@ -1,0 +1,40 @@
+.pageCont{
+    display:flex;
+    padding:1%;
+    justify-content:center;
+    align-items: center;
+    background-color: mintcream;
+    
+}
+
+.pageCont .rgtbtn{
+     margin-inline: 1%;
+     width:5rem;
+     background-color: rgb(8, 116, 80);
+     color:white;
+}
+
+.pageCont .leftbtn{
+    margin-inline: 1%;
+    width:5rem;
+    background-color: rgb(8, 116, 80);
+    color:white;
+}
+
+.pageCont .leftbtn:active{
+   color: rgb(8, 116, 80);
+   background-color:rgb(155, 250, 184);
+}
+
+.pageCont .rgtbtn:active{
+    color: rgb(8, 116, 80);
+    background-color:rgb(155, 250, 184);
+ }
+
+.pageCont button{
+    padding:7px;
+    border:none;
+    width:2rem;
+    margin-inline: 5px;
+    border-radius: 3px;
+}

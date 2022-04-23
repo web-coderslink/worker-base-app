@@ -1,0 +1,31 @@
+.formrow {
+    background-color:rgb(71, 252, 155);
+    width:12rem;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    padding:7px;
+    box-sizing: content-box;
+    border-radius: 4px;
+
+
+ }
+ 
+ .formrow label{
+     width: 40%;
+     display: flex;
+     align-items: center;
+     color:rgb(7, 98, 37);
+     text-transform:capitalize;
+ }
+ 
+ .formrow input{
+     border:none;
+     padding: 1%;
+     padding-inline:8%;
+     width: 50%;
+     border-radius: 4px;
+ }
+ 
+ 
+ 

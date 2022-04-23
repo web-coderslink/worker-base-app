@@ -1,0 +1,573 @@
+.viewjob {
+   width: 100%;
+   height: 100%;
+   box-sizing: border-box;
+}
+
+.viewjob .searchbar {
+   box-sizing: border-box;
+   background-color: rgb(71, 252, 155);
+   height: 5%;
+   border-radius: 6px;
+   position: sticky;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding: 5px;
+   top: 0;
+   border: 20px solid transparent;
+   box-sizing: border-box;
+   z-index:0;
+}
+
+.viewjob .searchbar .opt {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+.viewjob .searchbar h3 {
+   background-color: rgb(255, 241, 89);
+   color: black;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: lighter;
+   padding: 1%;
+   border-radius: 10px;
+}
+
+.viewjob .searchbar form {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.viewjob .searchbar button {
+   background-color: blueviolet;
+   border: none;
+   color: mintcream;
+   border-radius: 10%;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   cursor: pointer;
+   padding-inline: 1%;
+}
+
+.viewjob .searchbar button:hover {
+   background-color: mintcream;
+   color: blueviolet;
+}
+
+.viewjob .searchbar form .row {
+   background-color: blueviolet;
+   padding: 7px;
+   margin: 0.5%;
+   display: flex;
+   width: 13rem;
+   align-items: center;
+   border-radius: 4px;
+}
+
+.viewjob .searchbar form .row label {
+   width: 40%;
+   color: mintcream;
+}
+
+.viewjob .searchbar form .row input {
+   width: 60%;
+   color: blueviolet;
+   border-radius: 5px;
+   border: none;
+   padding: 5px;
+   cursor: pointer;
+}
+
+.viewjob .searchbar form .row select {
+   width: 50%;
+   color: blueviolet;
+   border-radius: 5px;
+   border: none;
+   padding: 3px;
+   cursor: pointer;
+}
+.viewjob .joblist {
+   overflow-wrap: break-word;
+   box-sizing: border-box;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: blueviolet;
+}
+
+.viewjob .joblist .gist {
+   background-color: rgb(71, 252, 155);
+   text-align: center;
+   width: 20%;
+   padding: 2%;
+   margin: 1%;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-transform: capitalize;
+   border-radius: 25px;
+}
+
+.viewjob .joblist .jobcontainer {
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.viewjob .joblist .jobs {
+   width: 27rem;
+   margin: 5px;
+}
+
+.viewjob .joblist .jobs .title {
+   display: flex;
+   align-items: center;
+   margin-bottom: 1%;
+   padding: 1.5%;
+   border-radius: 4px;
+   background-color: rgb(71, 252, 155);
+}
+
+.viewjob .joblist .jobs .title [title~='position'] {
+   color: mintcream;
+   background: blur;
+   background-color: blueviolet;
+   padding: 7px;
+   width: fit-content;
+   margin-bottom: 3px;
+   border-radius: 10px;
+}
+
+.viewjob .joblist .jobs .title [title~='company'] {
+   background-color: mintcream;
+   background: blur;
+   color: blueviolet;
+   padding: 7px;
+   width: max-content;
+   border-radius: 10px;
+}
+
+.viewjob .joblist .jobs .brief {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 3%;
+   padding: 3%;
+   height: 9rem;
+   border-radius: 4px;
+   background-color: mintcream;
+}
+
+.viewjob .joblist .jobs .brief .part1 {
+   width: 70%;
+}
+
+.viewjob .joblist .jobs .brief .part1 .buttonbox .editbtn,
+.delbtn {
+   margin-inline-end: 10px;
+   padding: 5px;
+   width: 5rem;
+   cursor: pointer;
+   border-radius: 4px;
+   text-align: center;
+}
+
+.viewjob .joblist .jobs .brief .part1 .buttonbox .editbtn {
+   background-color: rgb(145, 171, 255);
+   border: 2px solid rgb(59, 104, 251);
+   color: rgb(4, 44, 176);
+}
+
+.viewjob .joblist .jobs .brief .part1 .buttonbox .delbtn {
+   background-color: rgb(255, 145, 145);
+   border: 2px solid rgb(251, 59, 59);
+   color: rgb(176, 4, 4);
+}
+
+.viewjob .joblist .jobs .brief .part1 .buttonbox .delbtn:hover {
+   background-color: rgb(252, 47, 47);
+   color: white;
+}
+
+.viewjob .joblist .jobs .brief .part1 .buttonbox .editbtn:hover {
+   background-color: rgb(29, 29, 249);
+   color: white;
+}
+
+.viewjob .joblist .jobs .brief .part2 {
+   width: 50%;
+}
+
+.viewjob .joblist .jobs .brief .part2 [title~='interview'] {
+   background-color: rgb(152, 247, 104);
+   padding: 5px;
+   text-align: center;
+   border-radius: 4px;
+   width: 6rem;
+   border: 1px solid rgb(79, 210, 14);
+   color: rgb(42, 121, 3);
+}
+
+.viewjob .joblist .jobs .brief .part2 [title~='declined'] {
+   background-color: rgb(232, 106, 81);
+   padding: 5px;
+   text-align: center;
+   border-radius: 4px;
+   width: 6rem;
+   border: 1px solid rgb(180, 37, 8);
+   color: rgb(121, 3, 3);
+}
+
+.viewjob .joblist .jobs .brief .part2 [title~='pending'] {
+   background-color: rgb(245, 229, 91);
+   padding: 5px;
+   text-align: center;
+   border-radius: 4px;
+   width: 6rem;
+   border: 1px solid rgb(188, 171, 17);
+   color: rgb(121, 101, 3);
+}
+
+.viewjob .joblist .jobs .brief .part1 [title~='part-time'] {
+   padding: 5px;
+   text-align: center;
+   border-radius: 4px;
+   background-color: rgb(251, 8, 170);
+   color: white;
+}
+
+.viewjob .joblist .jobs .brief .part1 [title~='full-time'] {
+   padding: 5px;
+   text-align: center;
+   border-radius: 4px;
+   background-color: rgb(4, 143, 69);
+   color: white;
+}
+
+.viewjob .joblist .jobs .brief .part1 [title~='internship'] {
+   padding: 5px;
+   text-align: center;
+   border-radius: 4px;
+   background-color: rgb(129, 51, 255);
+   color: white;
+}
+
+.viewjob .joblist .jobs .brief .part1 [title~='remote'] {
+   padding: 5px;
+   text-align: center;
+   border-radius: 4px;
+   background-color: rgb(252, 185, 0);
+   color: white;
+}
+
+.viewjob .joblist .jobs .icon {
+   background-color: rgb(255, 241, 89);
+   text-align: center;
+   border-radius: 6px;
+   display: flex;
+   justify-content: center;
+   padding: 5%;
+   padding-inline: 7%;
+   margin-right: 10px;
+}
+
+.viewjob .joblist .jobs article .part1 {
+   display: block;
+}
+
+
+@media screen and (max-width: 500px) {
+   .viewjob {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+   }
+   
+   .viewjob .searchbar {
+      box-sizing: border-box;
+      background-color: rgb(71, 252, 155);
+      border-radius:0;
+      position: sticky;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding:0;
+      top: 0;
+      border: none;
+      box-sizing: border-box;
+      z-index:0;
+   }
+   
+   .viewjob .searchbar .opt {
+      width: 100%;
+      flex-wrap: nowrap;
+      padding:0;
+   }
+   
+   .viewjob .searchbar h3 {
+      background-color: rgb(255, 241, 89);
+      color: black;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: lighter;
+      padding: 1%;
+      border-radius: 10px;
+      margin:0;
+   }
+   
+   .viewjob .searchbar form {
+      display: flex;
+      flex-wrap: nowrap;
+   }
+   
+   .viewjob .searchbar button {
+      background-color: blueviolet;
+      border: none;
+      color: mintcream;
+      border-radius: 10%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      cursor: pointer;
+      padding-inline: 1%;
+      margin:1px;
+   }
+   
+   .viewjob .searchbar button:hover {
+      background-color: mintcream;
+      color: blueviolet;
+   }
+   
+   .viewjob .searchbar form .row {
+      background-color: blueviolet;
+      margin: 2px;
+      display: flex;
+      width: 100%;
+      padding:2px;
+      align-items: center;
+      border-radius: 4px;
+   }
+   
+   .viewjob .searchbar form .row label {
+      width: 40%;
+      color: mintcream;
+      font-size: smaller;
+   }
+   
+   .viewjob .searchbar form .row input {
+      width: 60%;
+      color: blueviolet;
+      border-radius: 5px;
+      border: none;
+      padding: 5px;
+      font-size: smaller;
+      cursor: pointer;
+   }
+   
+   .viewjob .searchbar form .row select {
+      width: 50%;
+      color: blueviolet;
+      border-radius: 5px;
+      border: none;
+      padding: 2px;
+      cursor: pointer;
+   }
+   .viewjob .joblist {
+      overflow-wrap: break-word;
+      box-sizing: border-box;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: blueviolet;
+   }
+   
+   .viewjob .joblist .gist {
+      background-color: rgb(71, 252, 155);
+      text-align: center;
+      width: 100%;
+      padding: 2%;
+      margin: 1%;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      text-transform: capitalize;
+      border-radius: 0;
+   }
+   
+   .viewjob .joblist .jobcontainer {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+   
+   .viewjob .joblist .jobs {
+      width: 27rem;
+      margin: 5px;
+   }
+   
+   .viewjob .joblist .jobs .title {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1%;
+      padding: 1.5%;
+      border-radius: 4px;
+      background-color: rgb(71, 252, 155);
+   }
+   
+   .viewjob .joblist .jobs .title [title~='position'] {
+      color: mintcream;
+      background: blur;
+      background-color: blueviolet;
+      padding: 7px;
+      width: fit-content;
+      margin-bottom: 3px;
+      border-radius: 10px;
+   }
+   
+   .viewjob .joblist .jobs .title [title~='company'] {
+      background-color: mintcream;
+      background: blur;
+      color: blueviolet;
+      padding: 7px;
+      width: max-content;
+      border-radius: 10px;
+   }
+   
+   .viewjob .joblist .jobs .brief {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 3%;
+      padding: 3%;
+      height: 9rem;
+      border-radius: 4px;
+      background-color: mintcream;
+   }
+   
+   .viewjob .joblist .jobs .brief .part1 {
+      width: 70%;
+   }
+   
+   .viewjob .joblist .jobs .brief .part1 .buttonbox .editbtn,
+   .delbtn {
+      margin-inline-end: 10px;
+      padding: 5px;
+      width: 5rem;
+      cursor: pointer;
+      border-radius: 4px;
+      text-align: center;
+   }
+   
+   .viewjob .joblist .jobs .brief .part1 .buttonbox .editbtn {
+      background-color: rgb(145, 171, 255);
+      border: 2px solid rgb(59, 104, 251);
+      color: rgb(4, 44, 176);
+   }
+   
+   .viewjob .joblist .jobs .brief .part1 .buttonbox .delbtn {
+      background-color: rgb(255, 145, 145);
+      border: 2px solid rgb(251, 59, 59);
+      color: rgb(176, 4, 4);
+   }
+   
+   .viewjob .joblist .jobs .brief .part1 .buttonbox .delbtn:hover {
+      background-color: rgb(252, 47, 47);
+      color: white;
+   }
+   
+   .viewjob .joblist .jobs .brief .part1 .buttonbox .editbtn:hover {
+      background-color: rgb(29, 29, 249);
+      color: white;
+   }
+   
+   .viewjob .joblist .jobs .brief .part2 {
+      width: 50%;
+   }
+   
+   .viewjob .joblist .jobs .brief .part2 [title~='interview'] {
+      background-color: rgb(152, 247, 104);
+      padding: 5px;
+      text-align: center;
+      border-radius: 4px;
+      width: 6rem;
+      border: 1px solid rgb(79, 210, 14);
+      color: rgb(42, 121, 3);
+   }
+   
+   .viewjob .joblist .jobs .brief .part2 [title~='declined'] {
+      background-color: rgb(232, 106, 81);
+      padding: 5px;
+      text-align: center;
+      border-radius: 4px;
+      width: 6rem;
+      border: 1px solid rgb(180, 37, 8);
+      color: rgb(121, 3, 3);
+   }
+   
+   .viewjob .joblist .jobs .brief .part2 [title~='pending'] {
+      background-color: rgb(245, 229, 91);
+      padding: 5px;
+      text-align: center;
+      border-radius: 4px;
+      width: 6rem;
+      border: 1px solid rgb(188, 171, 17);
+      color: rgb(121, 101, 3);
+   }
+   
+   .viewjob .joblist .jobs .brief .part1 [title~='part-time'] {
+      padding: 5px;
+      text-align: center;
+      border-radius: 4px;
+      background-color: rgb(251, 8, 170);
+      color: white;
+   }
+   
+   .viewjob .joblist .jobs .brief .part1 [title~='full-time'] {
+      padding: 5px;
+      text-align: center;
+      border-radius: 4px;
+      background-color: rgb(4, 143, 69);
+      color: white;
+   }
+   
+   .viewjob .joblist .jobs .brief .part1 [title~='internship'] {
+      padding: 5px;
+      text-align: center;
+      border-radius: 4px;
+      background-color: rgb(129, 51, 255);
+      color: white;
+   }
+   
+   .viewjob .joblist .jobs .brief .part1 [title~='remote'] {
+      padding: 5px;
+      text-align: center;
+      border-radius: 4px;
+      background-color: rgb(252, 185, 0);
+      color: white;
+   }
+   
+   .viewjob .joblist .jobs .icon {
+      background-color: rgb(255, 241, 89);
+      text-align: center;
+      border-radius: 6px;
+      display: flex;
+      justify-content: center;
+      padding: 5%;
+      padding-inline: 7%;
+      margin-right: 10px;
+   }
+   
+   .viewjob .joblist .jobs article .part1 {
+      display: block;
+   }
+}
+

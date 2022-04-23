@@ -1,0 +1,54 @@
+export const DISPLAY_ALERT = 'SHOW_ALERT';
+export const CLEAR_ALERT = 'CLEAR_ALERT';
+
+export const REGISTER_USER_BEGIN = 'REGISTER_USER_BEGIN';
+export const REGISTER_USER_SUCC = 'REGISTER_USER_SUCC';
+export const REGISTER_USER_ERR = 'REGISTER_USER_ERR';
+
+export const LOGIN_USER_BEGIN = 'LOGIN_USER_BEGIN';
+export const LOGIN_USER_SUCC = 'LOGIN_USER_SUCC';
+export const LOGIN_USER_ERR = 'LOGIN_USER_ERR';
+
+export const SETUP_USER_BEGIN = 'SETUP_USER_BEGIN';
+export const SETUP_USER_SUCC = 'SETUP_USER_SUCC';
+export const SETUP_USER_ERR = 'SETUP_USER_ERR';
+
+export const UPDATE_USER_BEGIN = 'UPDATE_USER_BEGIN';
+export const UPDATE_USER_SUCC = 'UPDATE_USER_SUCC';
+export const UPDATE_USER_ERR = 'UPDATE_USER_ERR';
+
+export const HANDLE_CHANGE = 'HANDLE_CHANGE';
+export const CLEAR_VALUES = 'CLEAR_VALUES';
+
+export const CREATE_JOB_BEGIN = 'CREATE_JOB_BEGIN';
+export const CREATE_JOB_SUCC = 'CREATE_JOB_SUCC';
+export const CREATE_JOB_ERR = 'CREATE_JOB_ERR';
+
+export const GET_JOB_BEGIN = 'GET_JOB_BEGIN';
+export const GET_JOB_SUCC = 'GET_JOB_SUCC';
+export const GET_JOB_ERR = 'GET_JOB_ERR';
+
+export const SET_EDIT_JOB = 'SET_EDIT_JOB';
+
+export const DELETE_JOB_BEGIN = 'DELETE_JOB_BEGIN';
+export const DELETE_JOB_SUCC = 'DELETE_JOB_SUCC';
+export const DELETE_JOB_ERR = 'DELETE_JOB_ERR';
+
+export const EDIT_JOB_BEGIN = 'EDIT_JOB_BEGIN';
+export const EDIT_JOB_SUCC = 'EDIT_JOB_SUCC';
+export const EDIT_JOB_ERR = 'EDIT_JOB_ERR';
+
+export const SHOW_JOB_BEGIN = 'SHOW_JOB_BEGIN';
+export const SHOW_JOB_SUCC = 'SHOW_JOB_SUCC';
+export const SHOW_JOB_ERR = 'SHOW_JOB_ERR';
+export const CLEAR_FILTERS = 'CLEAR_FILTERS';
+export const CHANGE_PAGE ='CHANGE_PAGE';
+
+export const LOGOUT_USER='LOGOUT_USER';
+export const CREATE_RATING_BEGIN='CREATE_RATING_BEGIN';
+export const CREATE_RATING_SUCC='CREATE_RATING_SUCC';
+export const CREATE_RATING_ERR='CREATE_RATING_ERR';
+
+export const GET_RATING_BEGIN = 'GET_RATING_BEGIN';
+export const GET_RATING_SUCC = 'GET_RATING_SUCC';
+export const GET_RATING_ERR = 'GET_RATING_ERR';

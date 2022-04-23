@@ -1,0 +1,12 @@
+
+@media screen and (max-width: 500px) {
+    .editjob{
+        color:rgb(255, 247, 0);
+        width: 100%;
+        background-color: crimson;
+        height:100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}

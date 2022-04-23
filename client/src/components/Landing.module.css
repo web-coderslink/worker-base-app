@@ -1,0 +1,63 @@
+body {
+   background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1063-17b.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=771655e541cdbd1d20fc715956ebe58c');
+   box-sizing: border-box;
+   background-color: rgb(255, 127, 202);
+}
+
+.SectioN {
+   position: relative;
+   margin-top: 10%;
+}
+
+.SectioN .card .sbtn {
+   border: none;
+   padding: 3%;
+   background-color: darkseagreen;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.SectioN .intro {
+   background-color: rgba(245, 255, 250, 0.859);
+   margin: 1%;
+   width: 50%;
+   padding: 1%;
+   border-radius: 4px;
+}
+
+.SectioN .intro header {
+   display: flex;
+   justify-content: center;
+}
+
+.SectioN .intro p {
+   text-align: justify;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: small;
+   text-indent: 20%;
+}
+
+.SectioN .intro footer {
+   display: flex;
+   justify-content: center;
+}
+
+.SectioN .intro footer button {
+   margin: 1%;
+   background-color: darkseagreen;
+   border: none;
+   padding: 2%;
+
+   border-radius: 4px;
+   font-size: small;
+   color: white;
+   cursor: pointer;
+}
+
+.SectioN .intro footer button:active {
+   background-color: rgb(75, 207, 247);
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}

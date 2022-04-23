@@ -1,0 +1,77 @@
+.chartCont {
+   width: 80%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contain {
+   padding: 1%;
+   width: 50%;
+   background-color: mintcream;
+   border-radius: 4px;
+}
+
+.contain h4{
+    color:rgb(19, 72, 19);
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.contain button{
+
+    background-color: rgb(14, 103, 14);
+    border:none;
+    border-radius:50%;
+    width:4rem;
+    height:4rem;
+    cursor: pointer;
+    color:white;
+    box-shadow: 3px 3px 2px black;
+}
+
+.contain button:active{
+    background-color: rgb(75, 239, 75);
+    color: rgb(14, 103, 14);
+}
+
+@media screen and (max-width: 500px) {
+
+    .chartCont {
+        width: 60%;
+        margin-top:15%;
+        background-color: yellow;
+     }
+     
+     .contain {
+        width: 100%;
+        height: 50%;     
+        background-color: rgb(255, 255, 255);
+        border-radius: 4px;
+     }
+     
+     .contain h4{
+         color:rgb(19, 72, 19);
+         text-transform: capitalize;
+         text-decoration: underline;
+     }
+     
+     .contain button{
+     
+         background-color: rgb(14, 103, 14);
+         border:none;
+         border-radius:50%;
+         width:4rem;
+         height:4rem;
+         cursor: pointer;
+         color:white;
+         box-shadow: 3px 3px 2px black;
+     }
+     
+     .contain button:active{
+         background-color: rgb(75, 239, 75);
+         color: rgb(14, 103, 14);
+     }
+     
+}
